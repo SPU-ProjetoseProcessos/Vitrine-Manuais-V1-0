@@ -1,23 +1,15 @@
-# Vitrine de Manuais CentralGov
+# Vitrine de Manuais CentralGov na SPU
 
-Página de entrada dos manuais eletrônicos da CentralGov na SPU. Cada perfil tem o seu manual:
-
-- **Atendimento:** Usuário (quem pede os serviços) e Profissional (quem atende os serviços).
-- **Gestão:** Gestor da unidade (quem coordena a unidade) e Área demandante (quem pede a inclusão dos serviços da sua área).
+Página com os guias eletrônicos da CentralGov, organizados por perfil (Usuário, Profissional, Gestor da unidade e Área demandante).
 
 ## Arquivos
-- **`index.html`**: a vitrine.
-- **`imagens/`**: logo e as prévias dos guias em elaboração.
-- **`.nojekyll`**: faz o GitHub Pages servir os arquivos como estão.
+- `index.html`: a página da vitrine.
+- `imagens/`: logo gov.br/CentralGov e prévias dos guias em elaboração.
+- `.nojekyll`: arquivo vazio que faz o GitHub Pages servir os arquivos como estão.
+- `README.md`: esta explicação.
 
-## Publicar no GitHub Pages
-1. Crie o repositório e envie os arquivos (Add file → Upload files).
-2. Em **Settings → Pages**, escolha *Deploy from a branch*, branch `main`, pasta `/ (root)`.
-3. A vitrine fica em `https://spu-projetoseprocessos.github.io/<nome-do-repositorio>/`.
+## Publicar
+Envie todos os arquivos para a raiz do repositório, mantendo a pasta `imagens/`.
+Em Settings → Pages, escolha a branch `main` e a pasta `/ (root)`.
 
-## Atualizar os links dos manuais
-Os links estão no início do script, na lista `P` (campo `u` de cada perfil). Troque o endereço e envie o `index.html` de novo.
-
-Vitrine elaborada por: CEPRO/CGGES/DEGOV/SPU/MGI.
-
-O `index.html` e a pasta `imagens` precisam ficar juntos, na mesma pasta do repositório.
+Elaborado por: CEPRO/CGGES/DEGOV · V1 · 10/2026
